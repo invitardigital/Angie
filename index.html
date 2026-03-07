@@ -130,36 +130,22 @@
             <div class="pb_60">
                 <div class="row max_wpx_1000 m_0">
 
-                        <div class="col-md-6 font_times">
-                            <div class="bg_white bg_opacity_70 p_30">
-                                <h3 class="text_center">Ceremonia</h3>
-                                <img src="lugar1.jpg" class="wimg_responsive rounded mb_10">
-                                <h3 class="text_center">Parroquia De Nuestra Señora de la Salud</h3>
-                                <div class="text_left">
-                                    <strong>Cuándo:</strong>
-                                    <span>25 Abril 2026 5:00 pm.</span><br>
-                                    <strong>Dirección:</strong>
-                                    <span>José María Morelos Ote. 11, Centro, 61650 Pedernales, Mich.</span>
-                                </div><br>
-                                <a href="https://maps.app.goo.gl/xbUkQoUy42epeVHc9" class="my_btn bg_pink py_10 px_30 mt_10 rounded color_white no_link">Ver mapa</a>
-                            </div>
-
-                        </div>
-       
+                
+                    
 
 
                         <div class="col-md-6 font_times">
                             <div class="bg_white bg_opacity_70 p_30">
                                 <h3 class="text_center">Recepción</h3>
                                 <img src="lugar2.jpg" class="wimg_responsive rounded mb_10">
-                                <h3 class="text_center">Recepción jardín el Edén</h3>
+                                <h3 class="text_center">Quinta Los Amigos</h3>
                                 <div class="text_left">
                                     <strong>Cuándo:</strong>
-                                    <span>25 Abril 2026 6:30 pm.</span><br>
+                                    <span>25 Abril 2026 8:00 pm.</span><br>
                                     <strong>Dirección:</strong>
-                                    <span>20 de Noviembre 421, La salud, 61670 Pedernales, Mich.</span>
+                                    <span>Calle Prof Jesús Morelos 221, Del Maestro, 64180 Monterrey, N.L.</span>
                                 </div><br>
-                                <a href="https://maps.app.goo.gl/kUSR41Ym6sW6yLc78" class="my_btn bg_pink py_10 px_30 mt_10 rounded color_white no_link" >Ver mapa</a>
+                                <a href="https://maps.app.goo.gl/NN95xPuAdcPtpx8x8" class="my_btn bg_pink py_10 px_30 mt_10 rounded color_white no_link" >Ver mapa</a>
                             </div>
 
                         </div>
@@ -236,7 +222,11 @@
               <ul class="slides">
                 <li><img src="f1.jpg" /></li>
                 <li><img src="f2.jpg" /></li>
+                <li><img src="f3.jpg" /></li>
                 <li><img src="f4.jpg" /></li>
+                <li><img src="f5.jpg" /></li>
+                <li><img src="f6.jpg" /></li>
+                <li><img src="f7.jpg" /></li>
               </ul>
             </div>
         </div>
@@ -346,12 +336,12 @@
                                 
                                 <div class="item-detalle">
                                     <span class="etiqueta-dato">Hora:</span>
-                                    <span class="valor-dato">6:30 PM</span>
+                                    <span class="valor-dato">8:00 PM</span>
                                 </div>
                                 
                                 <div class="item-detalle">
                                     <span class="etiqueta-dato">Lugar:</span>
-                                    <span class="valor-dato">Recepción jardín el Edén</span>
+                                    <span class="valor-dato">Quinta Los Amigos</span>
                                 </div>
                                 <div class="item-detalle">
                                     <span class="etiqueta-dato">Código:</span>
@@ -507,14 +497,14 @@ document.getElementById("sello").addEventListener("click", function() {
     paginaDer.style.transform = 'rotateY(90deg)';
     document.getElementById("sello").classList.remove("animate__infinite","animate__pulse");
     document.getElementById("sello").classList.add("animate__animated", "animate__fadeOut");
-    //$(window).scrollTop(0);
+    $(window).scrollTop(0);
     setTimeout(() => {
         document.querySelector(".protector").style.display = "none";
         $('body').css('overflow-y', 'auto');
     }, 800);
-    //audio.play();
+    audio.play();
 });
-//$(window).scrollTop(0);
+$(window).scrollTop(0);
 
 
 document.querySelectorAll('.modal').forEach(function(modal) {
